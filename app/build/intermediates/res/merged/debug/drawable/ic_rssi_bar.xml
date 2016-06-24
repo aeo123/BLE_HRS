@@ -13,4 +13,4 @@
     <item android:maxLevel="45" android:drawable="@drawable/ic_rssi_2_bars" />
     <item android:maxLevel="100" android:drawable="@drawable/ic_rssi_3_bars" />
 </level-list>
-<!-- From: file:/C:/Users/aeo/Desktop/BLE/app/src/main/res/drawable/ic_rssi_bar.xml -->
+<!-- From: file:/E:/GitHub/BLE/app/src/main/res/drawable/ic_rssi_bar.xml -->

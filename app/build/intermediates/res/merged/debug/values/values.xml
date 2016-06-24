@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/aeo/Desktop/BLE/app/src/main/res/values/color.xml -->
+    <!-- From: file:/E:/GitHub/BLE/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="actionBarColor">#009CDE</color>
     <color name="backgroundColor">#E6E7E8</color>
@@ -9,24 +9,24 @@
     <color name="featureTitleColor">#939597</color>
     <color name="headerBackgroundColor">#009ada</color>
     <color name="headerTextColor">#FFFFFF</color>
-    <!-- From: file:/C:/Users/aeo/Desktop/BLE/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/E:/GitHub/BLE/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="activity_vertical_margin_bottom">12dp</dimen>
     <dimen name="activity_vertical_margin_top">16dp</dimen>
-    <!-- From: file:/C:/Users/aeo/Desktop/BLE/app/src/main/res/values/strings_bpm.xml -->
+    <!-- From: file:/E:/GitHub/BLE/app/src/main/res/values/strings_bpm.xml -->
     <eat-comment/>
     <dimen name="bpm_feature_title_long_margin">-115dp</dimen>
-    <!-- From: file:/C:/Users/aeo/Desktop/BLE/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/E:/GitHub/BLE/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="feature_horizontal_margin">30dp</dimen>
     <dimen name="feature_section_padding">8dp</dimen>
     <dimen name="feature_vertical_margin_top">40dp</dimen>
-    <!-- From: file:/C:/Users/aeo/Desktop/BLE/app/src/main/res/values/strings_hrs.xml -->
+    <!-- From: file:/E:/GitHub/BLE/app/src/main/res/values/strings_hrs.xml -->
     <eat-comment/>
     <dimen name="hrs_feature_title_long_margin">-152dp</dimen>
-    <!-- From: file:/C:/Users/aeo/Desktop/BLE/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/E:/GitHub/BLE/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="about_title">About</string>
     <string name="about_version">\n\nVersion: %s</string>
@@ -37,7 +37,7 @@
     <string name="battery">%d%%</string>
     <string name="bonded">The device is now bonded.</string>
     <string name="bonding">Bonding with the device…</string>
-    <!-- From: file:/C:/Users/aeo/Desktop/BLE/app/src/main/res/values/strings_bpm.xml -->
+    <!-- From: file:/E:/GitHub/BLE/app/src/main/res/values/strings_bpm.xml -->
     <eat-comment/>
     <string name="bpm_about_text">BPM (Blood Pressure Monitor) profile allows you to connect to your Blood Pressure device. 
         It supports the cuff pressure notifications and displays systolic, diastolic and mean arterial pulse values as well as the pulse after blood pressure reading is completed. 
@@ -56,13 +56,13 @@
     <string name="bpm_unit_bpm">bpm</string>
     <string name="bpm_unit_kpa">kPa</string>
     <string name="bpm_unit_mmhg">mmHg</string>
-    <!-- From: file:/C:/Users/aeo/Desktop/BLE/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/E:/GitHub/BLE/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="drawer_close">Close</string>
     <string name="drawer_open">Open</string>
     <string name="drawer_plugins">PLUGINS</string>
     <string name="font_path">fonts/trebucbd.ttf</string>
-    <!-- From: file:/C:/Users/aeo/Desktop/BLE/app/src/main/res/values/strings_hrs.xml -->
+    <!-- From: file:/E:/GitHub/BLE/app/src/main/res/values/strings_hrs.xml -->
     <eat-comment/>
     <string name="hrs_about_text">HRM (Heart Rate Monitor) profile allows you to connect to your Heart Rate sensor (f.e. a belt). 
         It shows you the current rate, location of the sensor and a historic data on the graph.</string>
@@ -72,7 +72,7 @@
     <string name="hrs_feature_title_long">HEART RATE MERSURE</string>
     <string name="hrs_position_label">sensor position</string>
     <string name="hrs_value_unit">BPM</string>
-    <!-- From: file:/C:/Users/aeo/Desktop/BLE/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/E:/GitHub/BLE/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="no_apps">No profiles found.</string>
     <string name="no_ble">Device doesn\'t have BLE support!</string>
@@ -89,7 +89,7 @@
     <string name="scanner_subtitle__not_bonded">AVAILABLE DEVICES:</string>
     <string name="scanner_subtitle_bonded">BONDED DEVICES:</string>
     <string name="scanner_title">Select device:</string>
-    <!-- From: file:/C:/Users/aeo/Desktop/BLE/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/E:/GitHub/BLE/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
         <item name="android:windowBackground">@drawable/background</item>
