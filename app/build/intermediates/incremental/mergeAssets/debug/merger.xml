@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\aeo\Desktop\BLE\app\src\main\assets"><file name="fonts/trebuc.ttf" path="C:\Users\aeo\Desktop\BLE\app\src\main\assets\fonts\trebuc.ttf"/><file name="fonts/trebucbd.ttf" path="C:\Users\aeo\Desktop\BLE\app\src\main\assets\fonts\trebucbd.ttf"/></source></dataSet><dataSet config="debug"><source path="C:\Users\aeo\Desktop\BLE\app\src\debug\assets"/></dataSet></merger>

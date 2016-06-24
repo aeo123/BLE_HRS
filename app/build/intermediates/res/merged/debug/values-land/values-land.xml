@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/aeo/Desktop/BLE/app/src/main/res/values-land/strings_bpm.xml -->
+    <eat-comment/>
+    <dimen name="bpm_feature_title_long_margin">-115dp</dimen>
+    <!-- From: file:/C:/Users/aeo/Desktop/BLE/app/src/main/res/values-land/strings_hrs.xml -->
+    <eat-comment/>
+    <dimen name="hrs_feature_title_long_margin">-16dp</dimen>
+    <!-- From: file:/C:/Users/aeo/Desktop/BLE/app/src/main/res/values-land/strings_bpm.xml -->
+    <eat-comment/>
+    <string name="bpm_feature_title_long">BLOOD PRESSURE</string>
+    <!-- From: file:/C:/Users/aeo/Desktop/BLE/app/src/main/res/values-land/strings_hrs.xml -->
+    <eat-comment/>
+    <string name="hrs_feature_title_long">HRM</string>
+</resources>

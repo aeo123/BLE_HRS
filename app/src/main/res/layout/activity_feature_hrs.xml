@@ -1,0 +1,118 @@
+<!--
+  Copyright (c) 2013 Nordic Semiconductor. All Rights Reserved.
+  
+  The information contained herein is property of Nordic Semiconductor ASA.
+  Terms and conditions of usage are described in detail in NORDIC SEMICONDUCTOR STANDARD SOFTWARE LICENSE AGREEMENT.
+  Licensees are granted free, non-transferable use of the information. NO WARRANTY of ANY KIND is provided. 
+  This heading must NOT be removed from the file.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HRSActivity">
+    
+    <!-- The size of text below must be fixed, therefore dp are used instead of sp -->
+
+    <TextView
+        android:id="@+id/battery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/feature_horizontal_margin"
+        android:background="@drawable/battery"
+        android:freezesText="true"
+        android:gravity="center"
+        android:text="@string/not_available"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="80dp"
+        android:visibility="invisible" />
+
+    <no.nordicsemi.android.BLE.widget.TrebuchetTextView
+        android:id="@+id/device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:ellipsize="end"
+        android:freezesText="true"
+        android:maxLines="1"
+        android:text="@string/hrs_default_name"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/action_connect"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="220dp">
+
+        <FrameLayout
+            android:id="@+id/graph_hrs"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="true" >
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/action_connect"
+        style="@style/Widget.Connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin_bottom"
+        android:onClick="onConnectClicked"
+        android:text="@string/action_connect" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_alignParentEnd="false"
+        android:background="@drawable/roundbmp"
+        android:layout_marginTop="70dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <no.nordicsemi.android.BLE.widget.TrebuchetTextView
+            android:id="@+id/text_hrs_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:freezesText="true"
+            android:maxLines="1"
+            android:text="@string/not_available_value"
+            android:textSize="52sp"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal" />
+
+        <no.nordicsemi.android.BLE.widget.TrebuchetTextView
+            android:id="@+id/BMP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:freezesText="true"
+            android:maxLines="1"
+            android:textSize="20sp"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="BPM"
+            android:layout_marginTop="-10dp"
+            android:layout_marginRight="-10dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

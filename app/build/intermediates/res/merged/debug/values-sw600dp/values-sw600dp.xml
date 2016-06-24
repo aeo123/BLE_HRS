@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/aeo/Desktop/BLE/app/src/main/res/values-sw600dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">24dp</dimen>
+    <dimen name="activity_vertical_margin_bottom">40dp</dimen>
+    <dimen name="activity_vertical_margin_top">24dp</dimen>
+    <!-- From: file:/C:/Users/aeo/Desktop/BLE/app/src/main/res/values-sw600dp/strings_bpm.xml -->
+    <eat-comment/>
+    <dimen name="bpm_feature_title_long_margin">-115dp</dimen>
+    <!-- From: file:/C:/Users/aeo/Desktop/BLE/app/src/main/res/values-sw600dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="feature_horizontal_margin">80dp</dimen>
+    <!-- From: file:/C:/Users/aeo/Desktop/BLE/app/src/main/res/values-sw600dp/strings_hrs.xml -->
+    <eat-comment/>
+    <dimen name="hrs_feature_title_long_margin">-152dp</dimen>
+    <!-- From: file:/C:/Users/aeo/Desktop/BLE/app/src/main/res/values-sw600dp/strings_bpm.xml -->
+    <eat-comment/>
+    <string name="bpm_feature_title_long">BLOOD PRESSURE</string>
+    <!-- From: file:/C:/Users/aeo/Desktop/BLE/app/src/main/res/values-sw600dp/strings_hrs.xml -->
+    <eat-comment/>
+    <string name="hrs_feature_title_long">HEART RATE MONITOR</string>
+</resources>
