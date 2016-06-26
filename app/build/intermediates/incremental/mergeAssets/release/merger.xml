@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\GitHub\BLE\app\src\main\assets"><file name="fonts/trebuc.ttf" path="E:\GitHub\BLE\app\src\main\assets\fonts\trebuc.ttf"/><file name="fonts/trebucbd.ttf" path="E:\GitHub\BLE\app\src\main\assets\fonts\trebucbd.ttf"/></source></dataSet><dataSet config="release"><source path="E:\GitHub\BLE\app\src\release\assets"/></dataSet></merger>

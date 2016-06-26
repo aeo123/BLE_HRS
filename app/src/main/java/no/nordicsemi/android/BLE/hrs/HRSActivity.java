@@ -8,6 +8,7 @@
  ******************************************************************************/
 package no.nordicsemi.android.BLE.hrs;
 
+import java.util.Iterator;
 import java.util.UUID;
 
 import no.nordicsemi.android.BLE.R;
@@ -18,8 +19,13 @@ import org.achartengine.GraphicalView;
 
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Looper;
+import android.os.Message;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import java.util.Queue;
+import java.util.LinkedList;
 
 /**
  * HRSActivity is the main Heart rate activity. It implements HRSManagerCallbacks to receive callbacks from HRSManager class. The activity supports portrait and landscape orientations. The activity
@@ -33,10 +39,12 @@ public class HRSActivity extends BleProfileActivity implements HRSManagerCallbac
 	private static final String GRAPH_COUNTER = "graph_counter";
 	private static final String HR_VALUE = "hr_value";
 
-	private final int MAX_HR_VALUE = 65535;
+	private final int MAX_HR_VALUE = 1000;
 	private final int MIN_POSITIVE_VALUE = 0;
+	private final int MESSAGE_REC=0;
 
 	private Handler mHandler = new Handler();
+	private Handler dHandler;
 
 	private boolean isGraphInProgress = false;
 
@@ -47,12 +55,10 @@ public class HRSActivity extends BleProfileActivity implements HRSManagerCallbac
 	private int mInterval = 1000; // 1s interval
 	private int mHrmValue = 0;
 	private int mCounter = 0;
-	private int mLength = 0;
 	private double secend=0;
 	private double volt=0;
 
 	private int BPM;                   // used to hold the pulse rate
-	private int Signal;                // holds the incoming raw data
 	private int IBI =100;             // holds the time between beats, must be seeded!
 	private boolean Pulse = false;     // true when pulse wave is high, false when it's low
 	private int MEASURED_COUNT=0;
@@ -65,15 +71,22 @@ public class HRSActivity extends BleProfileActivity implements HRSManagerCallbac
 	private int amp = 2048;                   // used to hold amplitude of pulse waveform, seeded
 	private boolean firstBeat = true;        // used to seed rate array so we startup with reasonable BPM
 	private boolean secondBeat = false;      // used to seed rate array so we startup with reasonable BPM
+	private int gLength = 1500;				//一屏图显示的点数
 
-	private double[] XT=new double[1500];	//显示点缓存
-	private double[] YT=new double[1500];
+	Queue<Double> XT = new LinkedList<Double>();
+	Queue<Double> YT = new LinkedList<Double>();
+
+//	private double[] XT_temp=new double[500];	//显示点缓存
+//	private double[] YT_temp=new double[500];
+//	private double[] XT=new double[1500];	//显示点缓存
+//	private double[] YT=new double[1500];
 
 
 	@Override
 	protected void onCreateView(Bundle savedInstanceState) {
 		setContentView(R.layout.activity_feature_hrs);
 		setGUI();
+		new HRSThread().start();
 		restoreSavedState(savedInstanceState);
 	}
 
@@ -125,35 +138,77 @@ public class HRSActivity extends BleProfileActivity implements HRSManagerCallbac
 		return HRSManager.HR_SERVICE_UUID;
 	}
 
-	private void updateGraph(final int hrmValue) {
-		runOnUiThread(new Runnable() {
-			@Override
-			public void run() {
 
+	private void updateGraph(final int hrmValue) {
 				//更新缓存数据
 				mLineGraph.clearGraph();
-				for (int i = 20; i < 750; i++) {			//丢掉前20个数据，可能显示有问题，未知bug
-					mLineGraph.addValue(XT[i], YT[i]);
+				int xcounter=0;
+				Iterator YTit=YT.iterator();
+				while(YTit.hasNext())
+				{
+					double XT=2*(xcounter++);
+					double YT=(Double)YTit.next();
+					mLineGraph.addValue(XT, YT);
 				}
-
 				mGraphView.repaint();
+
 			}
-		});
-	}
 
 	private Runnable mRepeatTask = new Runnable() {
 		@Override
 		public void run() {
-			if (mHrmValue >= 0) {
-				mHrmValue=mCounter;
+
+			if (isGraphInProgress) {
 				setHRSValueOnView(BPM);    //更新bmp标签值，1hz
+				mHandler.postDelayed(mRepeatTask, mInterval);
 			}
-			if (isGraphInProgress);
-				 mHandler.postDelayed(mRepeatTask, mInterval);
 		}
 	};
 
+	void Process_RecData(int[] value){
+		//一个数据包内10个数据，一次添加10个到缓存
+		for(int i=0;i<value.length;i++){
+			//secend=xcounter*2;			//转换成时间,
+			volt =value[i]*3.3f/2048.0f;	//转换成电压
+			if(YT.size()<gLength) {	//等待数据满
+				//XT.offer(secend);		//加入新的数据
+				YT.offer(volt);
+			}else{
+				//XT.poll();				//弹出队列头
+				YT.poll();
+				//XT.offer(secend);
+				YT.offer(volt);
+				mCounter++;
+			}
+			HeartComputer(value[i]);		//处理数据计算BPM
+		}
+		//刷新频率=n*2ms
+		if(mCounter==300) {
+			updateGraph(mHrmValue);
+			mCounter=0;
+		}
+	}
+	//单独的线程处理数据
+	class HRSThread extends Thread {
+		@Override
+		public void run() {
+			//建立消息循环
+			Looper.prepare();								 //初始化Loop
+			dHandler = new Handler() {
+				@Override
+				public void handleMessage(Message msg) {//定义处理消息的方法
+					switch (msg.what) {
+						case MESSAGE_REC:
+							Process_RecData((int[])msg.obj);
+						default: break;
+					}
+				}
 
+			};
+
+			Looper.loop();//启动消息循环
+		}
+	}
 
 
    private  void HeartComputer(int Signal){
@@ -256,8 +311,6 @@ public class HRSActivity extends BleProfileActivity implements HRSManagerCallbac
 		// this may notify user or show some views
 	}
 
-
-
 	//@Override
 	public void onHRNotificationEnabled() {
 		startShowGraph();
@@ -265,22 +318,12 @@ public class HRSActivity extends BleProfileActivity implements HRSManagerCallbac
 
 	@Override
 	public void onHRValueReceived(int[] value) {
-
-
-		//一个数据包内10个数据，一次添加10个到缓存
-		for(int i=0;i<10;i++){
-			mCounter++;
-			secend=mCounter*2-100;		//转换成时间,	//x轴显示偏移50个点，0.1s
-			volt =value[i]*3.3f/2048.0f;	//转换成电压
-			XT[mCounter-1] =  secend;     //保存
-			YT[mCounter-1] =  volt;
-			HeartComputer(value[i]);		//处理数据计算BPM
-		}
-	  //250个数据更新一次图像,实际取50-150共100个点显示
-		if(mCounter==750) {
-			updateGraph(mHrmValue);
-			mCounter=0;
-		}
+		//收到数据发送到处理线程
+		Message msg= new Message();
+		msg.obj=value;
+		msg.arg1=value.length;
+		msg.what = MESSAGE_REC;
+		dHandler.sendMessage(msg);
 	}
 
 	@Override

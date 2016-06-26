@@ -64,7 +64,7 @@ public class LineGraphView {
 		renderer.setMarginsColor(Color.argb(0x00, 0x01, 0x01, 0x01));
 		renderer.setAxesColor(Color.BLACK);
 		renderer.setAxisTitleTextSize(22);
-		renderer.setShowGrid(false);
+		renderer.setShowGrid(true);
 		renderer.setGridColor(Color.LTGRAY);
 		renderer.setLabelsColor(Color.BLACK);
 		renderer.setYLabelsColor(0, Color.DKGRAY);
@@ -73,24 +73,25 @@ public class LineGraphView {
 		renderer.setXLabelsColor(Color.DKGRAY);
 		renderer.setLabelsTextSize(20);		//标签大小
 		renderer.setLegendTextSize(20);
-		renderer.setYLabels(30);			//坐标轴标签点数
-		renderer.setXLabels(20);
-		renderer.setYAxisMax(2.0f);			//y轴范围3.5-0v
-		renderer.setYAxisMin(1.4f);
-		renderer.setXAxisMax(1000f);			//X0-200
+//		renderer.setYLabels(30);			//坐标轴标签点数
+//		renderer.setXLabels(20);
+		renderer.setYAxisMax(3.3f);
+		renderer.setYAxisMin(0);
+		renderer.setXAxisMax(1000f);		//X0-200
 		renderer.setXAxisMin(0);
 		renderer.setPointSize(2f);			//点粗细
 
 
 		//Disable zoom
 		//renderer.setExternalZoomEnabled(true);//设置是否可以缩放
-		renderer.setZoomInLimitY(2);//设置Y轴最大缩放限
-		renderer.setZoomInLimitX(2);//设置X轴最大缩放限
-		renderer.setPanLimits(new double[] {-500,2000,0,3.3});
+		renderer.setZoomInLimitY(1.5);//设置Y轴最大缩放限
+		renderer.setZoomInLimitX(1.5);//设置X轴最大缩放限
+		renderer.setPanLimits(new double[] {-200,3000,-5,5});
 		renderer.setZoomEnabled(true, true);//设置缩放
 		renderer.setPanEnabled(true, true);//设置滑动,这边是横向可以滑动,竖向滑动
 		//set title to x-axis and y-axis
 		renderer.setYLabels(10);
+		renderer.setXLabels(10);
 		renderer.setXTitle("        Time (ms)");
 		renderer.setYTitle("        Volt（v）");
 		renderer.addSeriesRenderer(mRenderer);

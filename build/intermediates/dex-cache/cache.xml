@@ -2,18 +2,11 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\aeo\Desktop\BLE\app\libs\achartengine-1.1.0.jar"
+        jar="D:\Users\aeo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
-        <dex dex="C:\Users\aeo\Desktop\BLE\app\build\intermediates\pre-dexed\debug\achartengine-1.1.0-a220c9fb19e78f4bd0b03c60e7b212c9768a0195.jar" />
-    </item>
-    <item
-        jar="E:\GitHub\BLE\app\libs\achartengine-1.1.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
-        <dex dex="E:\GitHub\BLE\app\build\intermediates\pre-dexed\debug\achartengine-1.1.0-25fcf959205ba0cc8ab084300040dacb9ef72f7d.jar" />
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="E:\GitHub\BLE\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-cfd689c7773f5160cd87f62d6fd92426a47a6f84.jar" />
     </item>
     <item
         jar="E:\GitHub\BLE\app\libs\logger-v1.jar"
@@ -23,18 +16,11 @@
         <dex dex="E:\GitHub\BLE\app\build\intermediates\pre-dexed\debug\logger-v1-b5d29ba0826ec024feb670072039ca013028caa2.jar" />
     </item>
     <item
-        jar="D:\Users\aeo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jar="E:\GitHub\BLE\app\libs\achartengine-1.1.0.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="C:\Users\aeo\Desktop\BLE\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-cfd689c7773f5160cd87f62d6fd92426a47a6f84.jar" />
-    </item>
-    <item
-        jar="C:\Users\aeo\Desktop\BLE\app\libs\logger-v1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="0153beb7fa337d826ae475fc9e8ab7f096854d75">
-        <dex dex="C:\Users\aeo\Desktop\BLE\app\build\intermediates\pre-dexed\debug\logger-v1-13b5f682c5d622f011ed2416e7568042e2cb9fa6.jar" />
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="E:\GitHub\BLE\app\build\intermediates\pre-dexed\debug\achartengine-1.1.0-25fcf959205ba0cc8ab084300040dacb9ef72f7d.jar" />
     </item>
 
 </items>
