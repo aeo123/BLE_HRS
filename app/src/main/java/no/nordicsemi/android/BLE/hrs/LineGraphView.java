@@ -86,7 +86,7 @@ public class LineGraphView {
 		//renderer.setExternalZoomEnabled(true);//设置是否可以缩放
 		renderer.setZoomInLimitY(1.5);//设置Y轴最大缩放限
 		renderer.setZoomInLimitX(1.5);//设置X轴最大缩放限
-		renderer.setPanLimits(new double[] {-200,3000,-5,5});
+		renderer.setPanLimits(new double[] {-500,2000,-5,5});
 		renderer.setZoomEnabled(true, true);//设置缩放
 		renderer.setPanEnabled(true, true);//设置滑动,这边是横向可以滑动,竖向滑动
 		//set title to x-axis and y-axis
