@@ -169,7 +169,7 @@ public class HRSActivity extends BleProfileActivity implements HRSManagerCallbac
         for (int i = 0; i < value.length; i++) {
             mCounter++;
             volt = value[i] * 3.3f / 2048.0f;    //转换成电压
-            if (i % 5 == 0) {
+            if (i % 2 == 0) {                   //二分频
                 if (YT.size() < gLength) {        //等待数据满
                     //XT.offer(secend);		     //加入新的数据
                     YT.offer(volt);
