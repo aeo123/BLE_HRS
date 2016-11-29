@@ -8,12 +8,6 @@
  ******************************************************************************/
 package no.nordicsemi.android.BLE.profile;
 
-import java.util.UUID;
-
-import no.nordicsemi.android.BLE.AppHelpFragment;
-import no.nordicsemi.android.BLE.R;
-import no.nordicsemi.android.BLE.scanner.ScannerFragment;
-import no.nordicsemi.android.BLE.utility.DebugLogger;
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
@@ -28,6 +22,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.UUID;
+
+import no.nordicsemi.android.BLE.AppHelpFragment;
+import no.nordicsemi.android.BLE.R;
+import no.nordicsemi.android.BLE.hrs.HRSActivity;
+import no.nordicsemi.android.BLE.scanner.ScannerFragment;
+import no.nordicsemi.android.BLE.utility.DebugLogger;
 
 public abstract class BleProfileActivity extends Activity implements BleManagerCallbacks, ScannerFragment.OnDeviceSelectedListener {
 	private static final String TAG = "BaseProfileActivity";
@@ -46,6 +49,7 @@ public abstract class BleProfileActivity extends Activity implements BleManagerC
 	private boolean mDeviceConnected = false;
 	private String mDeviceName;
 
+	private ArrayList<String>  SDresult;
 	@Override
 	protected final void onCreate(final Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -79,7 +83,7 @@ public abstract class BleProfileActivity extends Activity implements BleManagerC
 	/**
 	 * Called from {@link #onCreate(Bundle)}. This method should build the activity UI, f.e. using {@link #setContentView(int)}. Use to obtain references to views. Connect/Disconnect button, the
 	 * device name view and battery level view are manager automatically.
-	 * 
+	 *
 	 * @param savedInstanceState
 	 *            contains the data it most recently supplied in {@link #onSaveInstanceState(Bundle)}. Note: <b>Otherwise it is null</b>.
 	 */
@@ -87,7 +91,7 @@ public abstract class BleProfileActivity extends Activity implements BleManagerC
 
 	/**
 	 * Called after the view has been created.
-	 * 
+	 *
 	 * @param savedInstanceState
 	 */
 	protected final void onViewCreated(final Bundle savedInstanceState) {
@@ -140,10 +144,42 @@ public abstract class BleProfileActivity extends Activity implements BleManagerC
 			final AppHelpFragment fragment = AppHelpFragment.getInstance(getAboutTextId());
 			fragment.show(getFragmentManager(), "help_fragment");
 			break;
+			case R.id.action_read:
+				//启动界面2
+				final Intent intent = new Intent(BleProfileActivity.this, ReadActivity.class);
+				intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+				startActivityForResult(intent,0x55);
+				break;
 		}
 		return true;
 	}
+	public void onActivityResult(int requestCode, int resultCode, Intent data) {
 
+		switch (requestCode) {
+			case 0x55:
+				// When DeviceListActivity returns with a device to connect
+				if (resultCode == Activity.RESULT_OK) {
+					//读取数据
+					//Bundle bundle = data.getExtras();
+					//SDresult = data.getDoubleArrayExtra("sdData");
+					//String name=bundle.getString("username");
+					SDresult=data.getStringArrayListExtra("sdData");
+					//SDresult=(Vector<Double>)bundle.getSerializable("sdData");
+					HRSActivity.startSDwave(SDresult);
+					//showToast("readdatasize"+SDresult.size());
+					{
+						mDeviceConnected = true;
+						runOnUiThread(new Runnable() {
+							@Override
+							public void run() {
+								mConnectButton.setText(R.string.action_disconnect);
+							}
+						});
+					}
+				}
+				break;
+		}
+	}
 	/**
 	 * Called when user press CONNECT or DISCONNECT button. See layout files -> onClick attribute.
 	 */
@@ -240,7 +276,7 @@ public abstract class BleProfileActivity extends Activity implements BleManagerC
 
 	/**
 	 * Shows a message as a Toast notification. This method is thread safe, you can call it from any thread
-	 * 
+	 *
 	 * @param message
 	 *            a message to be shown
 	 */
@@ -255,7 +291,7 @@ public abstract class BleProfileActivity extends Activity implements BleManagerC
 
 	/**
 	 * Shows a message as a Toast notification. This method is thread safe, you can call it from any thread
-	 * 
+	 *
 	 * @param messageResId
 	 *            an resource id of the message to be shown
 	 */
@@ -284,7 +320,7 @@ public abstract class BleProfileActivity extends Activity implements BleManagerC
 
 	/**
 	 * Initializes the Bluetooth Low Energy manager. A manager is used to communicate with profile's services.
-	 * 
+	 *
 	 * @return the manager that was created
 	 */
 	protected abstract BleManager<? extends BleManagerCallbacks> initializeManager();
@@ -296,21 +332,21 @@ public abstract class BleProfileActivity extends Activity implements BleManagerC
 
 	/**
 	 * Returns the default device name resource id. The real device name is obtained when connecting to the device. This one is used when device has disconnected.
-	 * 
+	 *
 	 * @return the default device name resource id
 	 */
 	protected abstract int getDefaultDeviceName();
 
 	/**
 	 * Returns the string resource id that will be shown in About box
-	 * 
+	 *
 	 * @return the about resource id
 	 */
 	protected abstract int getAboutTextId();
 
 	/**
 	 * The UUID filter is used to filter out available devices that does not have such UUID in their advertisement packet. See also: {@link #isChangingConfigurations()}.
-	 * 
+	 *
 	 * @return the required UUID or <code>null</code>
 	 */
 	protected abstract UUID getFilterUUID();
@@ -318,7 +354,7 @@ public abstract class BleProfileActivity extends Activity implements BleManagerC
 	/**
 	 * As the Android SDK can filter automatically only base SIG UUIDs, this flag allows to filter proprietary UUIDs using custom advertising data parsing. Default implementation returns
 	 * <code>false</code>.
-	 * 
+	 *
 	 * @return <code>false</code> if UUID returned by {@link #getFilterUUID()} is derived from the base SIG UUID, <code>true</code> it it's a custom UUID
 	 */
 	protected boolean isCustomFilterUUID() {
@@ -327,7 +363,7 @@ public abstract class BleProfileActivity extends Activity implements BleManagerC
 
 	/**
 	 * Shows the scanner fragment.
-	 * 
+	 *
 	 * @param filter
 	 *            the UUID filter used to filter out available devices. The fragment will always show all bonded devices as there is no information about their services
 	 * @param isCustomUUID

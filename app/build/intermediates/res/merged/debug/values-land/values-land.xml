@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/E:/GitHub/BLE/app/src/main/res/values-land/strings_bpm.xml -->
-    <eat-comment/>
+    <bool name="abc_action_bar_embed_tabs_pre_jb">true</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">true</bool>
+    <dimen name="abc_action_bar_default_height_material">48dp</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">32dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14dp</dimen>
     <dimen name="bpm_feature_title_long_margin">-115dp</dimen>
-    <!-- From: file:/E:/GitHub/BLE/app/src/main/res/values-land/strings_hrs.xml -->
-    <eat-comment/>
     <dimen name="hrs_feature_title_long_margin">-16dp</dimen>
-    <!-- From: file:/E:/GitHub/BLE/app/src/main/res/values-land/strings_bpm.xml -->
-    <eat-comment/>
     <string name="bpm_feature_title_long">BLOOD PRESSURE</string>
-    <!-- From: file:/E:/GitHub/BLE/app/src/main/res/values-land/strings_hrs.xml -->
-    <eat-comment/>
     <string name="hrs_feature_title_long">HRM</string>
+    <style name="Widget.Design.TabLayout" parent="Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
 </resources>

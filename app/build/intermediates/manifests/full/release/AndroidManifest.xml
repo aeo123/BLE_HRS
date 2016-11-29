@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="18"
-        android:targetSdkVersion="19" />
+        android:targetSdkVersion="23" />
 
     <permission
         android:name="no.nordicsemi.android.LOG"
@@ -14,6 +14,8 @@
         android:icon="@drawable/ic_permission_log"
         android:label="@string/permission_log_label" />
 
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
@@ -24,6 +26,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="HRS"
         android:logo="@drawable/n_logo"
+        android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="no.nordicsemi.android.BLE.SplashscreenActivity"
@@ -36,6 +39,10 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="no.nordicsemi.android.BLE.profile.ReadActivity"
+            android:label="@string/str_app_read" />
+        <activity android:name="zhou.tools.fileselector.FileSelectorActivity" />
+        <activity
             android:name="no.nordicsemi.android.BLE.hrs.HRSActivity"
             android:icon="@drawable/ic_hrs_feature"
             android:label="@string/hrs_feature_title_long" >
@@ -45,6 +52,13 @@
                 <category android:name="no.nordicsemi.android.nrftoolbox.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

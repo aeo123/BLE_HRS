@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="no.nordicsemi.android.BLE"
     android:versionCode="5"
-    android:versionName="1.2" >
+    android:versionName="1.2">
     
     <permission
         android:name="no.nordicsemi.android.LOG"
@@ -13,17 +14,21 @@
 
     <uses-sdk
         android:minSdkVersion="18"
-        android:targetSdkVersion="19" />
+        android:targetSdkVersion="23" />
 
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="no.nordicsemi.android.LOG" />
 
     <application
+        tools:replace="android:label"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="HRS"
+        android:supportsRtl="true"
         android:logo="@drawable/n_logo"
         android:theme="@style/AppTheme" >
         <activity
@@ -37,6 +42,9 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="no.nordicsemi.android.BLE.profile.ReadActivity"
+            android:label="@string/str_app_read"/>
+        <activity android:name="zhou.tools.fileselector.FileSelectorActivity"/>
 
         <activity
             android:name="no.nordicsemi.android.BLE.hrs.HRSActivity"
@@ -47,8 +55,13 @@
 
                 <category android:name="no.nordicsemi.android.nrftoolbox.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
 
-    </application>
+    </application
+>
 
 </manifest>

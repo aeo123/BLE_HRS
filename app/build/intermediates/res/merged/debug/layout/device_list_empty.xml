@@ -5,4 +5,3 @@
     android:layout_height="?android:attr/listPreferredItemHeightSmall"
     android:gravity="center_vertical"
     android:text="@string/scanner_empty" />
-<!-- From: file:/E:/GitHub/BLE/app/src/main/res/layout/device_list_empty.xml -->

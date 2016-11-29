@@ -32,4 +32,4 @@
         android:textColor="#000000"
         android:textSize="12sp" />
 
-</RelativeLayout><!-- From: file:/E:/GitHub/BLE/app/src/main/res/layout/device_list_row.xml -->
+</RelativeLayout>

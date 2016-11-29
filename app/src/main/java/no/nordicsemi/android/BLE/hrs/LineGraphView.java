@@ -8,6 +8,10 @@
  ******************************************************************************/
 package no.nordicsemi.android.BLE.hrs;
 
+import android.content.Context;
+import android.graphics.Color;
+import android.graphics.Paint.Align;
+
 import org.achartengine.ChartFactory;
 import org.achartengine.GraphicalView;
 import org.achartengine.chart.PointStyle;
@@ -15,10 +19,6 @@ import org.achartengine.model.XYMultipleSeriesDataset;
 import org.achartengine.model.XYSeries;
 import org.achartengine.renderer.XYMultipleSeriesRenderer;
 import org.achartengine.renderer.XYSeriesRenderer;
-
-import android.content.Context;
-import android.graphics.Color;
-import android.graphics.Paint.Align;
 
 /**
  * This class uses external library AChartEngine to show dynamic real time line graph for HR values
@@ -56,7 +56,7 @@ public class LineGraphView {
 		//set line chart style to square points
 		mRenderer.setPointStyle(PointStyle.POINT);
 		mRenderer.setFillPoints(true);
-		mRenderer.setLineWidth(2.5f);
+		mRenderer.setLineWidth(3f);
 		final XYMultipleSeriesRenderer renderer = mMultiRenderer;
 		//set whole graph background color to transparent color
 		renderer.setBackgroundColor(Color.TRANSPARENT);
@@ -69,29 +69,30 @@ public class LineGraphView {
 		renderer.setLabelsColor(Color.BLACK);
 		renderer.setYLabelsColor(0, Color.DKGRAY);
 		renderer.setYLabelsAlign(Align.RIGHT);
-		renderer.setYLabelsPadding(4.0f);
+		renderer.setYLabelsPadding(5.0f);
 		renderer.setXLabelsColor(Color.DKGRAY);
-		renderer.setLabelsTextSize(20);		//标签大小
+		renderer.setLabelsTextSize(25);		//标签大小
 		renderer.setLegendTextSize(20);
 //		renderer.setYLabels(30);			//坐标轴标签点数
 //		renderer.setXLabels(20);
 		renderer.setYAxisMax(3.3f);
 		renderer.setYAxisMin(0);
-		renderer.setXAxisMax(1000f);		//X0-200
+		renderer.setXAxisMax(10000f);		//X0-200
 		renderer.setXAxisMin(0);
 		renderer.setPointSize(2f);			//点粗细
 
 
 		//Disable zoom
 		//renderer.setExternalZoomEnabled(true);//设置是否可以缩放
-		renderer.setZoomInLimitY(1.5);//设置Y轴最大缩放限
-		renderer.setZoomInLimitX(1.5);//设置X轴最大缩放限
-		renderer.setPanLimits(new double[] {-500,2000,-5,5});
+		renderer.setZoomInLimitY(2);//设置Y轴最大缩放限
+		renderer.setZoomInLimitX(1.2);//设置X轴最大缩放限
+		renderer.setPanLimits(new double[] {-2000,20000,-1,3});
 		renderer.setZoomEnabled(true, true);//设置缩放
 		renderer.setPanEnabled(true, true);//设置滑动,这边是横向可以滑动,竖向滑动
 		//set title to x-axis and y-axis
-		renderer.setYLabels(10);
-		renderer.setXLabels(10);
+		renderer.setYLabels(8);
+		renderer.setXLabels(8);
+
 		renderer.setXTitle("        Time (ms)");
 		renderer.setYTitle("        Volt（v）");
 		renderer.addSeriesRenderer(mRenderer);

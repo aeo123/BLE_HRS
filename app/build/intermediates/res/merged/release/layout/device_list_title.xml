@@ -4,4 +4,3 @@
     style="@style/Widget.ScannerSubtitle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content" />
-<!-- From: file:/E:/GitHub/BLE/app/src/main/res/layout/device_list_title.xml -->
