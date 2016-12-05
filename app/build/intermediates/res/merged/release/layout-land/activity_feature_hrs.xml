@@ -34,15 +34,16 @@
         android:maxLines="1"
         android:text="@string/hrs_default_name"
         android:textAllCaps="true"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:visibility="gone" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/activity_vertical_margin_bottom"
+        android:layout_marginBottom="0dp"
         android:layout_marginLeft="@dimen/feature_horizontal_margin"
-        android:layout_marginRight="@dimen/feature_horizontal_margin"
-        android:layout_marginTop="@dimen/feature_vertical_margin_top"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal"
         android:id="@+id/linearLayout">
 
@@ -55,7 +56,7 @@
             android:orientation="vertical"
             android:layout_marginTop="30dp"
             android:background="@drawable/roundbmp"
-            android:layout_marginLeft="50dp"
+            android:layout_marginLeft="0dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp">
 
@@ -89,7 +90,7 @@
             android:id="@+id/graph_hrs"
             android:layout_width="0dp"
             android:layout_height="250dp"
-            android:layout_marginLeft="40dp"
+            android:layout_marginLeft="20dp"
             android:layout_weight="1" />
     </LinearLayout>
 
@@ -99,11 +100,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="@dimen/activity_vertical_margin_bottom"
+        android:layout_marginBottom="5dp"
         android:onClick="onConnectClicked"
         android:text="@string/action_connect"
-        android:layout_centerInParent="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="40dp" />
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dp" />
 
 </RelativeLayout>

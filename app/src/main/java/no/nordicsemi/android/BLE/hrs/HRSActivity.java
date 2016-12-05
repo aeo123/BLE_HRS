@@ -146,7 +146,7 @@ public class HRSActivity extends BleProfileActivity implements HRSManagerCallbac
         int xcounter = 0;
         Iterator YTit = YT.iterator();
         while (YTit.hasNext()) {
-            double XT = 20 * (xcounter++);
+            double XT = 18 * (xcounter++);
             double YT = (Double) YTit.next();
             mLineGraph.addValue(XT, YT);
         }
@@ -158,7 +158,7 @@ public class HRSActivity extends BleProfileActivity implements HRSManagerCallbac
         @Override
         public void run() {
             if (isGraphInProgress) {
-                setHRSValueOnView(BPM);    //更新bmp标签值，1hz
+                setHRSValueOnView(BPM+sp_data);    //更新bmp标签值，1hz
                 mHandler.postDelayed(mRepeatTask, mInterval);
             }
         }
@@ -182,51 +182,70 @@ public class HRSActivity extends BleProfileActivity implements HRSManagerCallbac
             HeartComputer(value[i]);        //处理数据计算BPM
         }
         //刷新频率=80ms
-        if (mCounter == 3) {
+        if (mCounter == 2 ) {
             updateGraph(mHrmValue);
             mCounter = 0;
         }
     }
 
-
-    private static sendSddataThread sddataThread;
-    public static void  startSDwave(ArrayList<String> result){
+    static boolean sddataflag=false;
+    private static sendSddataThread sddataThread=null;
+    public static int  sp_data=0;
+    public static void  createSDwave(ArrayList<String> result){
         if(sddataThread!=null) {
             sddataThread = null;
         }
         sddataThread=new sendSddataThread(result,dHandler);
-        sddataThread.start();
+        sddataflag=false;
+    }
+    public static boolean  haveSDwave(){
+        if(sddataThread!=null) {
+            return  true;
+        }
+        return  false;
+    }
+    public static boolean  isrun(){
+        return sddataflag;
+    }
+    public static void  stopSDwave(){
+        sddataflag=false;
+        sddataThread = null;
+        sp_data=0;
+    }
+    public static void  startSDwave(){
+        sddataflag=true;
+        if(haveSDwave())
+            sddataThread.start();
     }
     static class sendSddataThread extends Thread {
         ArrayList<String> sendData;
         Handler tHandler;
-        long sendCount;
-        boolean flag=true;
+        int sendCount;
+
         public  sendSddataThread(ArrayList<String> result,Handler dHd){
             sendData=result;
             tHandler=dHd;
         }
         @Override
         public void run() {
-            while(flag){
+            while(sddataflag){
+                sendCount++;
             Message msg = new Message();
                 int[] sd=new int[1];
-                sd[0]=(int)(Float.valueOf(sendData.get(1)).floatValue()*2048/3.3f);
+                sd[0]=(int)(Float.valueOf(sendData.get(sendCount)).floatValue()*2048/3.3f);
             msg.obj  = sd;
             msg.arg1 = 1;
             msg.what = MESSAGE_REC;
                dHandler.sendMessage(msg);
-                sendCount++;
-            sendData.remove(1);
-            if(sendData.size()==1){
-                flag=false;
-            }
-            try {
-                Thread.sleep(20);
-                Log.e(TAG, "SEND"+sendCount);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-              }
+                if((sendData.size()-1)==sendCount){
+                    sendCount=0;
+                 }
+                try {
+                    Thread.sleep(20);
+                    Log.e(TAG, "SEND"+sendCount);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
         }
     }

@@ -160,22 +160,11 @@ public abstract class BleProfileActivity extends Activity implements BleManagerC
 				// When DeviceListActivity returns with a device to connect
 				if (resultCode == Activity.RESULT_OK) {
 					//读取数据
-					//Bundle bundle = data.getExtras();
-					//SDresult = data.getDoubleArrayExtra("sdData");
-					//String name=bundle.getString("username");
+					Bundle bundle = data.getExtras();
 					SDresult=data.getStringArrayListExtra("sdData");
-					//SDresult=(Vector<Double>)bundle.getSerializable("sdData");
-					HRSActivity.startSDwave(SDresult);
+					HRSActivity.sp_data=bundle.getInt("sp_data_flag");
+					HRSActivity.createSDwave(SDresult);
 					//showToast("readdatasize"+SDresult.size());
-					{
-						mDeviceConnected = true;
-						runOnUiThread(new Runnable() {
-							@Override
-							public void run() {
-								mConnectButton.setText(R.string.action_disconnect);
-							}
-						});
-					}
 				}
 				break;
 		}
@@ -185,11 +174,21 @@ public abstract class BleProfileActivity extends Activity implements BleManagerC
 	 */
 	public void onConnectClicked(final View view) {
 		if (isBLEEnabled()) {
-			if (!mDeviceConnected) {
-				setDefaultUI();
-				showDeviceScanningDialog(getFilterUUID(), isCustomFilterUUID());
-			} else {
-				mBleManager.disconnect();
+			if(HRSActivity.haveSDwave()) {
+				if(HRSActivity.isrun()) {
+					HRSActivity.stopSDwave();
+					onDeviceDisconnected();
+				}else{
+					HRSActivity.startSDwave();
+					onDeviceConnected();
+				}
+			}else{
+				if (!mDeviceConnected) {
+					setDefaultUI();
+					showDeviceScanningDialog(getFilterUUID(), isCustomFilterUUID());
+				} else {
+					mBleManager.disconnect();
+				}
 			}
 		} else {
 			showBLEDialog();

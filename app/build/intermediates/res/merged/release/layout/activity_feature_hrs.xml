@@ -37,7 +37,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignEnd="@+id/action_connect"
         android:layout_marginTop="10dp"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -50,7 +51,8 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_alignParentEnd="false"
-            android:layout_alignParentStart="true" >
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="0dp">
 
         </FrameLayout>
     </LinearLayout>

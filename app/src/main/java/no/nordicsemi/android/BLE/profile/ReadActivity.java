@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -33,8 +34,9 @@ public class ReadActivity extends Activity {
 
     private FileConfig fileConfig;
 
-    EditText EDT_time;
+    CheckBox check_sp;
     EditText EDT_path;
+    EditText EDT_spdata;
     static String PATH;                                //完整路径
     String FILENAME = "SaveData";             //文件名
     String FILEEND = ".csv";                  //文件后缀
@@ -54,6 +56,9 @@ public class ReadActivity extends Activity {
         fileConfig = new FileConfig();
 
         EDT_path = (EditText) findViewById(R.id.input_path);
+        EDT_spdata=(EditText) findViewById(R.id.edit_spdata);
+        EDT_spdata.setText("20");
+        check_sp = (CheckBox)findViewById(R.id.check_sp);
 
         DIR=getSDPath() + File.separator +DIR;
         PATH =  DIR + File.separator + FILENAME + FILEEND;
@@ -68,12 +73,11 @@ public class ReadActivity extends Activity {
                 result = read();
                 if (result.size()>100){
                     Intent intent = new Intent();
-                    Bundle bundle = new Bundle();
-
-                    //bundle.putString("username",PATH);
-                   // bundle.putSerializable("sdData", result);
+                    if(check_sp.isChecked())
+                        intent.putExtra("sp_data_flag", Integer.valueOf(EDT_spdata.getText().toString()).intValue());
+                    else
+                        intent.putExtra("sp_data_flag", 0);
                     intent.putStringArrayListExtra("sdData", result);
-                    //intent.putExtra("sdData",result.toArray());
                     // Set result and finish this Activity
                     setResult(Activity.RESULT_OK, intent);
                     finish();
