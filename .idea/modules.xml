@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BLE.iml" filepath="$PROJECT_DIR$/BLE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BLE_HRS.iml" filepath="$PROJECT_DIR$/BLE_HRS.iml" />
       <module fileurl="file://$PROJECT_DIR$/FileSelector/FileSelector.iml" filepath="$PROJECT_DIR$/FileSelector/FileSelector.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

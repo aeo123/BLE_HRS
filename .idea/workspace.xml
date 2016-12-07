@@ -17,83 +17,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1d9f88e-274d-4242-b163-acb6021d09a1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release.apk" afterPath="$PROJECT_DIR$/app/app-release.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/R$raw.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/R$raw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/adapter/AppAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/adapter/AppAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity$HRSThread$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity$HRSThread$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity$HRSThread.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity$HRSThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/LineGraphView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/LineGraphView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileExpandableListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileExpandableListActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileServiceReadyActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileServiceReadyActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/scanner/DeviceListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/scanner/DeviceListAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/scanner/ScannerFragment$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/scanner/ScannerFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/scanner/ScannerFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/scanner/ScannerFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/R$raw.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/R$raw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/adapter/AppAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/adapter/AppAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/hrs/HRSActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/hrs/HRSActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/hrs/HRSActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/hrs/HRSActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/hrs/HRSActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/hrs/HRSActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/hrs/HRSActivity$HRSThread$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/hrs/HRSActivity$HRSThread$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/hrs/HRSActivity$HRSThread.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/hrs/HRSActivity$HRSThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/hrs/HRSActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/hrs/HRSActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/hrs/LineGraphView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/hrs/LineGraphView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/profile/BleProfileActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/profile/BleProfileActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/profile/BleProfileActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/profile/BleProfileActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/profile/BleProfileActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/profile/BleProfileActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/profile/BleProfileActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/profile/BleProfileActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/profile/BleProfileActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/profile/BleProfileActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/profile/BleProfileActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/profile/BleProfileActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/profile/BleProfileActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/profile/BleProfileActivity$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/profile/BleProfileActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/profile/BleProfileActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/profile/BleProfileExpandableListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/profile/BleProfileExpandableListActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/profile/BleProfileServiceReadyActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/profile/BleProfileServiceReadyActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/scanner/DeviceListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/scanner/DeviceListAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/scanner/ScannerFragment$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/scanner/ScannerFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/scanner/ScannerFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/no/nordicsemi/android/BLE/scanner/ScannerFragment.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/BLE.iml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-release.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-release.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-release-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-release-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/no/nordicsemi/android/BLE/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/no/nordicsemi/android/BLE/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/release/no/nordicsemi/android/BLE/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/no/nordicsemi/android/BLE/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout-land/activity_feature_hrs.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout-land/activity_feature_hrs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_feature_hrs.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_feature_hrs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/layout-land/activity_feature_hrs.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/layout-land/activity_feature_hrs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/layout/activity_feature_hrs.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/layout/activity_feature_hrs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/hrs/HRSActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/hrs/HRSActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/hrs/LineGraphView.java" afterPath="$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/hrs/LineGraphView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/profile/BleProfileActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/profile/BleProfileActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/profile/ReadActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/profile/ReadActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_feature_hrs.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_feature_hrs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_read.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_read.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_feature_hrs.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_feature_hrs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
     </list>
     <ignored path="BLE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -138,8 +70,27 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/profile/BleProfileActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="182" column="40" selection-start-line="182" selection-start-column="40" selection-end-line="182" selection-end-column="40" />
-              <folding />
+              <caret line="217" column="40" selection-start-line="217" selection-start-column="40" selection-end-line="217" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#586#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#7070#7071#0" expanded="false" />
+                <element signature="e#7131#7132#0" expanded="false" />
+                <element signature="e#7951#7952#0" expanded="false" />
+                <element signature="e#8023#8024#0" expanded="false" />
+                <element signature="e#8079#8080#0" expanded="false" />
+                <element signature="e#8113#8114#0" expanded="false" />
+                <element signature="e#8151#8152#0" expanded="false" />
+                <element signature="e#8184#8185#0" expanded="false" />
+                <element signature="e#8511#8512#0" expanded="false" />
+                <element signature="e#8551#8552#0" expanded="false" />
+                <element signature="e#9516#9517#0" expanded="false" />
+                <element signature="e#9546#9547#0" expanded="false" />
+                <element signature="e#9696#9697#0" expanded="false" />
+                <element signature="e#9721#9722#0" expanded="false" />
+                <element signature="e#11188#11189#0" expanded="false" />
+                <element signature="e#11207#11208#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -147,8 +98,8 @@
       <file leaf-file-name="HRSActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/hrs/HRSActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5441696">
-              <caret line="185" column="35" selection-start-line="185" selection-start-column="35" selection-end-line="185" selection-end-column="35" />
+            <state vertical-scroll-proportion="3.8869257">
+              <caret line="208" column="5" selection-start-line="208" selection-start-column="5" selection-end-line="208" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -159,34 +110,36 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="74" column="49" selection-start-line="74" selection-start-column="49" selection-end-line="74" selection-end-column="49" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_read.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_read.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.2063494">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_read.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_read.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -195,21 +148,34 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-              <folding />
+              <folding>
+                <element signature="e#0#586#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#4339#4340#0" expanded="false" />
+                <element signature="e#4363#4364#0" expanded="false" />
+                <element signature="e#4441#4442#0" expanded="false" />
+                <element signature="e#4463#4464#0" expanded="false" />
+                <element signature="e#4499#4500#0" expanded="false" />
+                <element signature="e#4528#4529#0" expanded="false" />
+                <element signature="e#4564#4565#0" expanded="false" />
+                <element signature="e#4593#4594#0" expanded="false" />
+                <element signature="e#4621#4622#0" expanded="false" />
+                <element signature="e#4657#4658#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_feature_hrs.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_feature_hrs.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -266,7 +232,7 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="BLE" />
+              <option name="name" value="BLE_HRS" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
@@ -277,12 +243,12 @@
                 <option name="path" value="$PROJECT_DIR$/app" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value=":FileSelector" />
-                <option name="path" value="$PROJECT_DIR$/FileSelector" />
+                <option name="name" value="BLE_HRS" />
+                <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="BLE" />
-                <option name="path" value="$PROJECT_DIR$" />
+                <option name="name" value=":FileSelector" />
+                <option name="path" value="$PROJECT_DIR$/FileSelector" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -295,22 +261,22 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'BLE'." />
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'BLE_HRS'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'BLE'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'BLE_HRS'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'BLE'." />
+                <option name="description" value="Displays all dependencies declared in root project 'BLE_HRS'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'BLE'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'BLE_HRS'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -325,22 +291,22 @@
                 <option name="name" value="init" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'BLE'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'BLE_HRS'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'BLE'." />
+                <option name="description" value="Displays the sub-projects of root project 'BLE_HRS'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'BLE'." />
+                <option name="description" value="Displays the properties of root project 'BLE_HRS'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'BLE' (some of the displayed tasks may belong to subprojects)." />
+                <option name="description" value="Displays the tasks runnable from root project 'BLE_HRS' (some of the displayed tasks may belong to subprojects)." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -977,9 +943,9 @@
                 <option name="name" value="prePackageMarkerForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare BLE:FileSelector:unspecified" />
+                <option name="description" value="Prepare BLE_HRS:FileSelector:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareBLEFileSelectorUnspecifiedLibrary" />
+                <option name="name" value="prepareBLE_HRSFileSelectorUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:design:23.1.1" />
@@ -2110,9 +2076,9 @@
                 <option name="name" value="preReleaseUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare BLE:FileSelector:unspecified" />
+                <option name="description" value="Prepare BLE_HRS:FileSelector:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareBLEFileSelectorUnspecifiedLibrary" />
+                <option name="name" value="prepareBLE_HRSFileSelectorUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:appcompat-v7:23.1.1" />
@@ -2323,11 +2289,6 @@
             </list>
           </value>
         </entry>
-      </map>
-    </option>
-    <option name="modificationStamps">
-      <map>
-        <entry key="$PROJECT_DIR$" value="5921400634564" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2720,7 +2681,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -2745,93 +2706,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BLE" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BLE" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BLE" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BLE" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BLE" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BLE" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="profile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BLE" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BLE" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hrs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="BLE" />
@@ -2853,6 +2732,22 @@
     <property name="ExportApk.Flavors" value="" />
     <property name="ExportApk.BuildType" value="release" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="659" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="141" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="97" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="255" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="360" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="54" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="67" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="68" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="664" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="false" name="ReadActivity" type="AndroidRunConfigurationType" factoryName="Android Application" activateToolWindowBeforeRun="false" temporary="true">
@@ -3174,7 +3069,13 @@
       <option name="project" value="LOCAL" />
       <updated>1480431027138</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix离线读取功能">
+      <created>1480935178922</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1480935178922</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3190,21 +3091,22 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.48931623" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.4871795" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.48504272" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32996634" sideWeight="0.48504272" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32996634" sideWeight="0.52350426" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5267094" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32996634" sideWeight="0.4764957" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32996634" sideWeight="0.51495725" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.51816237" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6071829" sideWeight="0.47008547" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.491453" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.48504272" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.48076922" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946581" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946581" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3216,7 +3118,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.491453" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -3233,7 +3134,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加离线读取功能，读取速度修改为50hz" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加离线读取功能，读取速度修改为50hz" />
+    <MESSAGE value="fix离线读取功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix离线读取功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3293,32 +3195,51 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_read.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splashscreen.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splashscreen.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/profile/BleProfileActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="57" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="57" />
-          <folding />
+          <folding>
+            <element signature="e#0#586#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#7070#7071#0" expanded="false" />
+            <element signature="e#7131#7132#0" expanded="false" />
+            <element signature="e#7951#7952#0" expanded="false" />
+            <element signature="e#8023#8024#0" expanded="false" />
+            <element signature="e#8079#8080#0" expanded="false" />
+            <element signature="e#8113#8114#0" expanded="false" />
+            <element signature="e#8151#8152#0" expanded="false" />
+            <element signature="e#8184#8185#0" expanded="false" />
+            <element signature="e#8511#8512#0" expanded="false" />
+            <element signature="e#8551#8552#0" expanded="false" />
+            <element signature="e#9516#9517#0" expanded="false" />
+            <element signature="e#9546#9547#0" expanded="false" />
+            <element signature="e#9696#9697#0" expanded="false" />
+            <element signature="e#9721#9722#0" expanded="false" />
+            <element signature="e#11188#11189#0" expanded="false" />
+            <element signature="e#11207#11208#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3366,14 +3287,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splashscreen.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FileSelector/src/main/java/zhou/tools/fileselector/FileSelectorDialog.java">
@@ -3543,115 +3464,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6205" column="18" selection-start-line="6205" selection-start-column="18" selection-end-line="6205" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#343964#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#37503#37504#0" expanded="false" />
-            <element signature="e#37535#37536#0" expanded="false" />
-            <element signature="e#37747#37748#0" expanded="false" />
-            <element signature="e#37790#37791#0" expanded="false" />
-            <element signature="e#207411#207412#0" expanded="false" />
-            <element signature="e#207450#207451#0" expanded="false" />
-            <element signature="e#207986#207987#0" expanded="false" />
-            <element signature="e#208032#208033#0" expanded="false" />
-            <element signature="e#208542#208543#0" expanded="false" />
-            <element signature="e#208575#208576#0" expanded="false" />
-            <element signature="e#232188#232189#0" expanded="false" />
-            <element signature="e#232218#232219#0" expanded="false" />
-            <element signature="e#232664#232665#0" expanded="false" />
-            <element signature="e#232692#232693#0" expanded="false" />
-            <element signature="e#232833#232834#0" expanded="false" />
-            <element signature="e#232895#232896#0" expanded="false" />
-            <element signature="e#233341#233342#0" expanded="false" />
-            <element signature="e#233404#233405#0" expanded="false" />
-            <element signature="e#233764#233765#0" expanded="false" />
-            <element signature="e#233792#233793#0" expanded="false" />
-            <element signature="e#234228#234229#0" expanded="false" />
-            <element signature="e#234292#234293#0" expanded="false" />
-            <element signature="e#236489#236490#0" expanded="false" />
-            <element signature="e#236523#236524#0" expanded="false" />
-            <element signature="e#236759#236760#0" expanded="false" />
-            <element signature="e#236791#236792#0" expanded="false" />
-            <element signature="e#237028#237029#0" expanded="false" />
-            <element signature="e#237060#237061#0" expanded="false" />
-            <element signature="e#237116#237117#0" expanded="false" />
-            <element signature="e#237155#237156#0" expanded="false" />
-            <element signature="e#237782#237783#0" expanded="false" />
-            <element signature="e#237849#237850#0" expanded="false" />
-            <element signature="e#238060#238061#0" expanded="false" />
-            <element signature="e#238130#238131#0" expanded="false" />
-            <element signature="e#238618#238619#0" expanded="false" />
-            <element signature="e#238661#238662#0" expanded="false" />
-            <element signature="e#254196#254197#0" expanded="false" />
-            <element signature="e#254225#254226#0" expanded="false" />
-            <element signature="e#254816#254817#0" expanded="false" />
-            <element signature="e#254847#254848#0" expanded="false" />
-            <element signature="e#255327#255328#0" expanded="false" />
-            <element signature="e#255360#255361#0" expanded="false" />
-            <element signature="e#255619#255620#0" expanded="false" />
-            <element signature="e#255655#255656#0" expanded="false" />
-            <element signature="e#262794#262795#0" expanded="false" />
-            <element signature="e#262848#262849#0" expanded="false" />
-            <element signature="e#264849#264850#0" expanded="false" />
-            <element signature="e#264904#264905#0" expanded="false" />
-            <element signature="e#272407#272408#0" expanded="false" />
-            <element signature="e#272439#272440#0" expanded="false" />
-            <element signature="e#312841#312842#0" expanded="false" />
-            <element signature="e#312879#312880#0" expanded="false" />
-            <element signature="e#313210#313211#0" expanded="false" />
-            <element signature="e#313250#313251#0" expanded="false" />
-            <element signature="e#319137#319138#0" expanded="false" />
-            <element signature="e#319168#319169#0" expanded="false" />
-            <element signature="e#326035#326036#0" expanded="false" />
-            <element signature="e#326108#326109#0" expanded="false" />
-            <element signature="e#327417#327418#0" expanded="false" />
-            <element signature="e#327462#327463#0" expanded="false" />
-            <element signature="e#327507#327508#0" expanded="false" />
-            <element signature="e#327554#327555#0" expanded="false" />
-            <element signature="e#327613#327614#0" expanded="false" />
-            <element signature="e#327647#327648#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_feature_hrs.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_read.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_read.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/profile/ReadActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="74" column="49" selection-start-line="74" selection-start-column="49" selection-end-line="74" selection-end-column="49" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3680,36 +3513,90 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_feature_hrs.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/hrs/LineGraphView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding />
+          <folding>
+            <element signature="e#0#586#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4339#4340#0" expanded="false" />
+            <element signature="e#4363#4364#0" expanded="false" />
+            <element signature="e#4441#4442#0" expanded="false" />
+            <element signature="e#4463#4464#0" expanded="false" />
+            <element signature="e#4499#4500#0" expanded="false" />
+            <element signature="e#4528#4529#0" expanded="false" />
+            <element signature="e#4564#4565#0" expanded="false" />
+            <element signature="e#4593#4594#0" expanded="false" />
+            <element signature="e#4621#4622#0" expanded="false" />
+            <element signature="e#4657#4658#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/profile/BleProfileActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="182" column="40" selection-start-line="182" selection-start-column="40" selection-end-line="182" selection-end-column="40" />
+          <caret line="217" column="40" selection-start-line="217" selection-start-column="40" selection-end-line="217" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#586#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#7070#7071#0" expanded="false" />
+            <element signature="e#7131#7132#0" expanded="false" />
+            <element signature="e#7951#7952#0" expanded="false" />
+            <element signature="e#8023#8024#0" expanded="false" />
+            <element signature="e#8079#8080#0" expanded="false" />
+            <element signature="e#8113#8114#0" expanded="false" />
+            <element signature="e#8151#8152#0" expanded="false" />
+            <element signature="e#8184#8185#0" expanded="false" />
+            <element signature="e#8511#8512#0" expanded="false" />
+            <element signature="e#8551#8552#0" expanded="false" />
+            <element signature="e#9516#9517#0" expanded="false" />
+            <element signature="e#9546#9547#0" expanded="false" />
+            <element signature="e#9696#9697#0" expanded="false" />
+            <element signature="e#9721#9722#0" expanded="false" />
+            <element signature="e#11188#11189#0" expanded="false" />
+            <element signature="e#11207#11208#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_read.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_read.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2063494">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/hrs/HRSActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5441696">
-          <caret line="185" column="35" selection-start-line="185" selection-start-column="35" selection-end-line="185" selection-end-column="35" />
+        <state vertical-scroll-proportion="3.8869257">
+          <caret line="208" column="5" selection-start-line="208" selection-start-column="5" selection-end-line="208" selection-end-column="5" />
           <folding />
         </state>
       </provider>
