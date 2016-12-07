@@ -12,13 +12,11 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
-import android.util.Log;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import org.achartengine.GraphicalView;
 
-import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -33,8 +31,8 @@ import no.nordicsemi.android.BLE.profile.BleProfileActivity;
  * uses external library AChartEngine to show real time graph of HR values.
  */
 public class HRSActivity extends BleProfileActivity implements HRSManagerCallbacks {
-
-    private static final String TAG = "HRSActivity";
+    @SuppressWarnings("unused")
+    private final String TAG = "HRSActivity";
 
     private static final String GRAPH_STATUS = "graph_status";
     private static final String GRAPH_COUNTER = "graph_counter";
@@ -42,18 +40,18 @@ public class HRSActivity extends BleProfileActivity implements HRSManagerCallbac
 
     private final int MAX_HR_VALUE = 1000;
     private final int MIN_POSITIVE_VALUE = 0;
-    private static final int MESSAGE_REC = 0;
+    private final int MESSAGE_REC = 0;
 
-    private static  Handler mHandler=new Handler();
-    private static  Handler dHandler;
+    private Handler mHandler = new Handler();
+    private Handler dHandler;
 
-    private static boolean isGraphInProgress = false;
+    private boolean isGraphInProgress = false;
 
     private GraphicalView mGraphView;
     private LineGraphView mLineGraph;
     private TextView mHRSValue, mHRSPosition;
 
-    private static int mInterval = 1000; // 1s interval
+    private int mInterval = 1000; // 1s interval
     private int mHrmValue = 0;
     private int mCounter = 0;
     private double secend = 0;
@@ -73,7 +71,7 @@ public class HRSActivity extends BleProfileActivity implements HRSManagerCallbac
     boolean secondBeat = false;       // 和第一次跳求差得到一次跳动时间
 
 
-    private int gLength = 500;                //一屏图显示的点数
+    private int gLength = 800;                //一屏图显示的点数
     Queue<Double> XT = new LinkedList<Double>();
     Queue<Double> YT = new LinkedList<Double>();
 
@@ -146,7 +144,7 @@ public class HRSActivity extends BleProfileActivity implements HRSManagerCallbac
         int xcounter = 0;
         Iterator YTit = YT.iterator();
         while (YTit.hasNext()) {
-            double XT = 18 * (xcounter++);
+            double XT = 2 * (xcounter++);
             double YT = (Double) YTit.next();
             mLineGraph.addValue(XT, YT);
         }
@@ -154,11 +152,12 @@ public class HRSActivity extends BleProfileActivity implements HRSManagerCallbac
 
     }
 
-    private  Runnable mRepeatTask = new Runnable() {
+    private Runnable mRepeatTask = new Runnable() {
         @Override
         public void run() {
+
             if (isGraphInProgress) {
-                setHRSValueOnView(BPM+sp_data);    //更新bmp标签值，1hz
+                setHRSValueOnView(BPM);    //更新bmp标签值，1hz
                 mHandler.postDelayed(mRepeatTask, mInterval);
             }
         }
@@ -169,7 +168,7 @@ public class HRSActivity extends BleProfileActivity implements HRSManagerCallbac
         for (int i = 0; i < value.length; i++) {
             mCounter++;
             volt = value[i] * 3.3f / 2048.0f;    //转换成电压
-
+            if (i % 2 == 0) {                   //二分频
                 if (YT.size() < gLength) {        //等待数据满
                     //XT.offer(secend);		     //加入新的数据
                     YT.offer(volt);
@@ -178,75 +177,16 @@ public class HRSActivity extends BleProfileActivity implements HRSManagerCallbac
                     YT.poll();
                     //XT.offer(secend);
                     YT.offer(volt);
-                }
-            HeartComputer(value[i]);        //处理数据计算BPM
-        }
-        //刷新频率=80ms
-        if (mCounter == 2 ) {
-            updateGraph(mHrmValue);
-            mCounter = 0;
-        }
-    }
 
-    static boolean sddataflag=false;
-    private static sendSddataThread sddataThread=null;
-    public static int  sp_data=0;
-    public static void  createSDwave(ArrayList<String> result){
-        if(sddataThread!=null) {
-            sddataThread = null;
-        }
-        sddataThread=new sendSddataThread(result,dHandler);
-        sddataflag=false;
-    }
-    public static boolean  haveSDwave(){
-        if(sddataThread!=null) {
-            return  true;
-        }
-        return  false;
-    }
-    public static boolean  isrun(){
-        return sddataflag;
-    }
-    public static void  stopSDwave(){
-        sddataflag=false;
-        sddataThread = null;
-        sp_data=0;
-    }
-    public static void  startSDwave(){
-        sddataflag=true;
-        if(haveSDwave())
-            sddataThread.start();
-    }
-    static class sendSddataThread extends Thread {
-        ArrayList<String> sendData;
-        Handler tHandler;
-        int sendCount;
-
-        public  sendSddataThread(ArrayList<String> result,Handler dHd){
-            sendData=result;
-            tHandler=dHd;
-        }
-        @Override
-        public void run() {
-            while(sddataflag){
-                sendCount++;
-            Message msg = new Message();
-                int[] sd=new int[1];
-                sd[0]=(int)(Float.valueOf(sendData.get(sendCount)).floatValue()*2048/3.3f);
-            msg.obj  = sd;
-            msg.arg1 = 1;
-            msg.what = MESSAGE_REC;
-               dHandler.sendMessage(msg);
-                if((sendData.size()-1)==sendCount){
-                    sendCount=0;
-                 }
-                try {
-                    Thread.sleep(20);
-                    Log.e(TAG, "SEND"+sendCount);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
                 }
             }
+
+            HeartComputer(value[i]);        //处理数据计算BPM
+        }
+        //刷新频率=n*2ms
+        if (mCounter == 40) {
+            updateGraph(mHrmValue);
+            mCounter = 0;
         }
     }
 
@@ -261,8 +201,6 @@ public class HRSActivity extends BleProfileActivity implements HRSManagerCallbac
                 public void handleMessage(Message msg) {//定义处理消息的方法
                     switch (msg.what) {
                         case MESSAGE_REC:
-                            if(isGraphInProgress==false)
-                                startShowGraph();
                             Process_RecData((int[]) msg.obj);
                         default:
                             break;
@@ -270,6 +208,7 @@ public class HRSActivity extends BleProfileActivity implements HRSManagerCallbac
                 }
 
             };
+
             Looper.loop();//启动消息循环
         }
     }
@@ -279,7 +218,7 @@ public class HRSActivity extends BleProfileActivity implements HRSManagerCallbac
         long N;
         int i;
 
-        sampleCounter += 20;                                                   // 500hz采样率，一次2ms
+        sampleCounter += 2;                                                   // 500hz采样率，一次2ms
         N = sampleCounter - lastBeatTime;                                      // 此次信号距离上次找到的脉冲时间差
         if (Signal < thresh && Signal < Nadir && Pulse == false) {
             Nadir = Signal;                                                  //更新当前峰底

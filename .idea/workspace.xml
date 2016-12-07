@@ -16,16 +16,29 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1d9f88e-274d-4242-b163-acb6021d09a1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BLE.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" />
+    <list default="true" id="f1d9f88e-274d-4242-b163-acb6021d09a1" name="Default" comment="还原了离线读取功能，只修改了字体布局">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity$HRSThread$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity$HRSThread$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity$HRSThread.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity$HRSThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/hrs/HRSActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/no/nordicsemi/android/BLE/profile/BleProfileActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/hrs/HRSActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/hrs/HRSActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/profile/BleProfileActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/profile/BleProfileActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="BLE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,7 +65,7 @@
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
-                <option name="myItemId" value="BLE" />
+                <option name="myItemId" value="BLE_HRS" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
               </PATH_ELEMENT>
             </PATH>
@@ -70,26 +83,44 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/profile/BleProfileActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="217" column="40" selection-start-line="217" selection-start-column="40" selection-end-line="217" selection-end-column="40" />
+              <caret line="142" column="18" selection-start-line="142" selection-start-column="18" selection-end-line="142" selection-end-column="18" />
               <folding>
-                <element signature="e#0#586#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#7070#7071#0" expanded="false" />
-                <element signature="e#7131#7132#0" expanded="false" />
-                <element signature="e#7951#7952#0" expanded="false" />
-                <element signature="e#8023#8024#0" expanded="false" />
-                <element signature="e#8079#8080#0" expanded="false" />
-                <element signature="e#8113#8114#0" expanded="false" />
-                <element signature="e#8151#8152#0" expanded="false" />
-                <element signature="e#8184#8185#0" expanded="false" />
-                <element signature="e#8511#8512#0" expanded="false" />
-                <element signature="e#8551#8552#0" expanded="false" />
-                <element signature="e#9516#9517#0" expanded="false" />
-                <element signature="e#9546#9547#0" expanded="false" />
-                <element signature="e#9696#9697#0" expanded="false" />
-                <element signature="e#9721#9722#0" expanded="false" />
-                <element signature="e#11188#11189#0" expanded="false" />
-                <element signature="e#11207#11208#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#4702#4728#0" expanded="true" />
+                <element signature="e#4768#4791#0" expanded="true" />
+                <element signature="e#5955#6072#0" expanded="true" />
+                <element signature="e#6035#6061#0" expanded="true" />
+                <element signature="e#6071#6072#0" expanded="true" />
+                <element signature="e#6208#6430#0" expanded="true" />
+                <element signature="e#6288#6311#0" expanded="true" />
+                <element signature="e#6397#6419#0" expanded="true" />
+                <element signature="e#6429#6430#0" expanded="true" />
+                <element signature="e#6525#6747#0" expanded="true" />
+                <element signature="e#6605#6628#0" expanded="true" />
+                <element signature="e#6714#6736#0" expanded="true" />
+                <element signature="e#6746#6747#0" expanded="true" />
+                <element signature="e#6836#6964#0" expanded="true" />
+                <element signature="e#6919#6953#0" expanded="true" />
+                <element signature="e#6963#6964#0" expanded="true" />
+                <element signature="e#7015#7016#0" expanded="true" />
+                <element signature="e#7029#7045#0" expanded="true" />
+                <element signature="e#7049#7050#0" expanded="true" />
+                <element signature="e#7087#7088#0" expanded="true" />
+                <element signature="e#7101#7116#0" expanded="true" />
+                <element signature="e#7120#7121#0" expanded="true" />
+                <element signature="e#7447#7448#0" expanded="true" />
+                <element signature="e#7461#7483#0" expanded="true" />
+                <element signature="e#7487#7488#0" expanded="true" />
+                <element signature="e#7732#7874#0" expanded="true" />
+                <element signature="e#7873#7874#0" expanded="true" />
+                <element signature="e#8150#8297#0" expanded="true" />
+                <element signature="e#8296#8297#0" expanded="true" />
+                <element signature="e#8454#8455#0" expanded="true" />
+                <element signature="e#8484#8485#0" expanded="true" />
+                <element signature="e#8634#8635#0" expanded="true" />
+                <element signature="e#8659#8660#0" expanded="true" />
+                <element signature="e#10131#10132#0" expanded="true" />
+                <element signature="e#10150#10151#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,9 +129,26 @@
       <file leaf-file-name="HRSActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/hrs/HRSActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.8869257">
-              <caret line="208" column="5" selection-start-line="208" selection-start-column="5" selection-end-line="208" selection-end-column="5" />
-              <folding />
+            <state vertical-scroll-proportion="-3.6737013">
+              <caret line="112" column="9" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1466#1493#0" expanded="true" />
+                <element signature="e#2954#2962#0" expanded="true" />
+                <element signature="e#3003#3011#0" expanded="true" />
+                <element signature="e#4649#4650#0" expanded="true" />
+                <element signature="e#4666#4692#0" expanded="true" />
+                <element signature="e#4698#4699#0" expanded="true" />
+                <element signature="e#4756#4757#0" expanded="true" />
+                <element signature="e#4773#4798#0" expanded="true" />
+                <element signature="e#4804#4805#0" expanded="true" />
+                <element signature="e#4856#4857#0" expanded="true" />
+                <element signature="e#4905#4906#0" expanded="true" />
+                <element signature="e#5320#5570#0" expanded="true" />
+                <element signature="e#5569#5570#0" expanded="true" />
+                <element signature="e#6600#6976#0" expanded="true" />
+                <element signature="e#6975#6976#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,9 +158,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="74" column="49" selection-start-line="74" selection-start-column="49" selection-end-line="74" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,7 +166,7 @@
       <file leaf-file-name="activity_read.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_read.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.2063494">
+            <state vertical-scroll-proportion="0.0">
               <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
@@ -148,20 +194,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#586#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#4339#4340#0" expanded="false" />
-                <element signature="e#4363#4364#0" expanded="false" />
-                <element signature="e#4441#4442#0" expanded="false" />
-                <element signature="e#4463#4464#0" expanded="false" />
-                <element signature="e#4499#4500#0" expanded="false" />
-                <element signature="e#4528#4529#0" expanded="false" />
-                <element signature="e#4564#4565#0" expanded="false" />
-                <element signature="e#4593#4594#0" expanded="false" />
-                <element signature="e#4621#4622#0" expanded="false" />
-                <element signature="e#4657#4658#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2667,10 +2700,10 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_feature_hrs.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_read.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout-land/activity_read.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/profile/BleProfileActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/profile/ReadActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout-land/activity_feature_hrs.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/hrs/LineGraphView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/profile/BleProfileActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/hrs/HRSActivity.java" />
       </list>
     </option>
@@ -2706,9 +2739,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2717,9 +2747,84 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BLE" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BLE" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BLE" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BLE" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BLE" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="profile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BLE" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BLE" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hrs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3075,7 +3180,13 @@
       <option name="project" value="LOCAL" />
       <updated>1480935178922</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix离线读取功能">
+      <created>1481091154098</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1481091154098</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3089,24 +3200,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.48504272" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32996634" sideWeight="0.48504272" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.48076922" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32996634" sideWeight="0.51495725" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.51816237" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6071829" sideWeight="0.47008547" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2738496" sideWeight="0.53418803" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.51602566" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2738496" sideWeight="0.46581197" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.491453" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.48076922" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946581" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946581" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3118,6 +3228,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.491453" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -3135,7 +3246,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加离线读取功能，读取速度修改为50hz" />
     <MESSAGE value="fix离线读取功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix离线读取功能" />
+    <MESSAGE value="还原了离线读取功能，只修改了字体布局" />
+    <option name="LAST_COMMIT_MESSAGE" value="还原了离线读取功能，只修改了字体布局" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3221,24 +3333,42 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="57" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="57" />
           <folding>
-            <element signature="e#0#586#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#7070#7071#0" expanded="false" />
-            <element signature="e#7131#7132#0" expanded="false" />
-            <element signature="e#7951#7952#0" expanded="false" />
-            <element signature="e#8023#8024#0" expanded="false" />
-            <element signature="e#8079#8080#0" expanded="false" />
-            <element signature="e#8113#8114#0" expanded="false" />
-            <element signature="e#8151#8152#0" expanded="false" />
-            <element signature="e#8184#8185#0" expanded="false" />
-            <element signature="e#8511#8512#0" expanded="false" />
-            <element signature="e#8551#8552#0" expanded="false" />
-            <element signature="e#9516#9517#0" expanded="false" />
-            <element signature="e#9546#9547#0" expanded="false" />
-            <element signature="e#9696#9697#0" expanded="false" />
-            <element signature="e#9721#9722#0" expanded="false" />
-            <element signature="e#11188#11189#0" expanded="false" />
-            <element signature="e#11207#11208#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#4702#4728#0" expanded="true" />
+            <element signature="e#4768#4791#0" expanded="true" />
+            <element signature="e#5955#6072#0" expanded="true" />
+            <element signature="e#6035#6061#0" expanded="true" />
+            <element signature="e#6071#6072#0" expanded="true" />
+            <element signature="e#6208#6430#0" expanded="true" />
+            <element signature="e#6288#6311#0" expanded="true" />
+            <element signature="e#6397#6419#0" expanded="true" />
+            <element signature="e#6429#6430#0" expanded="true" />
+            <element signature="e#6525#6747#0" expanded="true" />
+            <element signature="e#6605#6628#0" expanded="true" />
+            <element signature="e#6714#6736#0" expanded="true" />
+            <element signature="e#6746#6747#0" expanded="true" />
+            <element signature="e#6836#6964#0" expanded="true" />
+            <element signature="e#6919#6953#0" expanded="true" />
+            <element signature="e#6963#6964#0" expanded="true" />
+            <element signature="e#7015#7016#0" expanded="true" />
+            <element signature="e#7029#7045#0" expanded="true" />
+            <element signature="e#7049#7050#0" expanded="true" />
+            <element signature="e#7087#7088#0" expanded="true" />
+            <element signature="e#7101#7116#0" expanded="true" />
+            <element signature="e#7120#7121#0" expanded="true" />
+            <element signature="e#7447#7448#0" expanded="true" />
+            <element signature="e#7461#7483#0" expanded="true" />
+            <element signature="e#7487#7488#0" expanded="true" />
+            <element signature="e#7732#7874#0" expanded="true" />
+            <element signature="e#7873#7874#0" expanded="true" />
+            <element signature="e#8150#8297#0" expanded="true" />
+            <element signature="e#8296#8297#0" expanded="true" />
+            <element signature="e#8454#8455#0" expanded="true" />
+            <element signature="e#8484#8485#0" expanded="true" />
+            <element signature="e#8634#8635#0" expanded="true" />
+            <element signature="e#8659#8660#0" expanded="true" />
+            <element signature="e#10131#10132#0" expanded="true" />
+            <element signature="e#10150#10151#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3247,7 +3377,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="86" column="51" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="54" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1466#1493#0" expanded="true" />
+            <element signature="e#2954#2962#0" expanded="true" />
+            <element signature="e#3003#3011#0" expanded="true" />
+            <element signature="e#4649#4650#0" expanded="true" />
+            <element signature="e#4666#4692#0" expanded="true" />
+            <element signature="e#4698#4699#0" expanded="true" />
+            <element signature="e#4756#4757#0" expanded="true" />
+            <element signature="e#4773#4798#0" expanded="true" />
+            <element signature="e#4804#4805#0" expanded="true" />
+            <element signature="e#4856#4857#0" expanded="true" />
+            <element signature="e#4905#4906#0" expanded="true" />
+            <element signature="e#5320#5570#0" expanded="true" />
+            <element signature="e#5569#5570#0" expanded="true" />
+            <element signature="e#6600#6976#0" expanded="true" />
+            <element signature="e#6975#6976#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3482,9 +3629,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="74" column="49" selection-start-line="74" selection-start-column="49" selection-end-line="74" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3527,47 +3672,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#586#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#4339#4340#0" expanded="false" />
-            <element signature="e#4363#4364#0" expanded="false" />
-            <element signature="e#4441#4442#0" expanded="false" />
-            <element signature="e#4463#4464#0" expanded="false" />
-            <element signature="e#4499#4500#0" expanded="false" />
-            <element signature="e#4528#4529#0" expanded="false" />
-            <element signature="e#4564#4565#0" expanded="false" />
-            <element signature="e#4593#4594#0" expanded="false" />
-            <element signature="e#4621#4622#0" expanded="false" />
-            <element signature="e#4657#4658#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/profile/BleProfileActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="217" column="40" selection-start-line="217" selection-start-column="40" selection-end-line="217" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#586#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#7070#7071#0" expanded="false" />
-            <element signature="e#7131#7132#0" expanded="false" />
-            <element signature="e#7951#7952#0" expanded="false" />
-            <element signature="e#8023#8024#0" expanded="false" />
-            <element signature="e#8079#8080#0" expanded="false" />
-            <element signature="e#8113#8114#0" expanded="false" />
-            <element signature="e#8151#8152#0" expanded="false" />
-            <element signature="e#8184#8185#0" expanded="false" />
-            <element signature="e#8511#8512#0" expanded="false" />
-            <element signature="e#8551#8552#0" expanded="false" />
-            <element signature="e#9516#9517#0" expanded="false" />
-            <element signature="e#9546#9547#0" expanded="false" />
-            <element signature="e#9696#9697#0" expanded="false" />
-            <element signature="e#9721#9722#0" expanded="false" />
-            <element signature="e#11188#11189#0" expanded="false" />
-            <element signature="e#11207#11208#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3584,7 +3689,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_read.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.2063494">
+        <state vertical-scroll-proportion="0.0">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
@@ -3593,11 +3698,73 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/profile/BleProfileActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="142" column="18" selection-start-line="142" selection-start-column="18" selection-end-line="142" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4702#4728#0" expanded="true" />
+            <element signature="e#4768#4791#0" expanded="true" />
+            <element signature="e#5955#6072#0" expanded="true" />
+            <element signature="e#6035#6061#0" expanded="true" />
+            <element signature="e#6071#6072#0" expanded="true" />
+            <element signature="e#6208#6430#0" expanded="true" />
+            <element signature="e#6288#6311#0" expanded="true" />
+            <element signature="e#6397#6419#0" expanded="true" />
+            <element signature="e#6429#6430#0" expanded="true" />
+            <element signature="e#6525#6747#0" expanded="true" />
+            <element signature="e#6605#6628#0" expanded="true" />
+            <element signature="e#6714#6736#0" expanded="true" />
+            <element signature="e#6746#6747#0" expanded="true" />
+            <element signature="e#6836#6964#0" expanded="true" />
+            <element signature="e#6919#6953#0" expanded="true" />
+            <element signature="e#6963#6964#0" expanded="true" />
+            <element signature="e#7015#7016#0" expanded="true" />
+            <element signature="e#7029#7045#0" expanded="true" />
+            <element signature="e#7049#7050#0" expanded="true" />
+            <element signature="e#7087#7088#0" expanded="true" />
+            <element signature="e#7101#7116#0" expanded="true" />
+            <element signature="e#7120#7121#0" expanded="true" />
+            <element signature="e#7447#7448#0" expanded="true" />
+            <element signature="e#7461#7483#0" expanded="true" />
+            <element signature="e#7487#7488#0" expanded="true" />
+            <element signature="e#7732#7874#0" expanded="true" />
+            <element signature="e#7873#7874#0" expanded="true" />
+            <element signature="e#8150#8297#0" expanded="true" />
+            <element signature="e#8296#8297#0" expanded="true" />
+            <element signature="e#8454#8455#0" expanded="true" />
+            <element signature="e#8484#8485#0" expanded="true" />
+            <element signature="e#8634#8635#0" expanded="true" />
+            <element signature="e#8659#8660#0" expanded="true" />
+            <element signature="e#10131#10132#0" expanded="true" />
+            <element signature="e#10150#10151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/no/nordicsemi/android/BLE/hrs/HRSActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.8869257">
-          <caret line="208" column="5" selection-start-line="208" selection-start-column="5" selection-end-line="208" selection-end-column="5" />
-          <folding />
+        <state vertical-scroll-proportion="-3.6737013">
+          <caret line="112" column="9" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1466#1493#0" expanded="true" />
+            <element signature="e#2954#2962#0" expanded="true" />
+            <element signature="e#3003#3011#0" expanded="true" />
+            <element signature="e#4649#4650#0" expanded="true" />
+            <element signature="e#4666#4692#0" expanded="true" />
+            <element signature="e#4698#4699#0" expanded="true" />
+            <element signature="e#4756#4757#0" expanded="true" />
+            <element signature="e#4773#4798#0" expanded="true" />
+            <element signature="e#4804#4805#0" expanded="true" />
+            <element signature="e#4856#4857#0" expanded="true" />
+            <element signature="e#4905#4906#0" expanded="true" />
+            <element signature="e#5320#5570#0" expanded="true" />
+            <element signature="e#5569#5570#0" expanded="true" />
+            <element signature="e#6600#6976#0" expanded="true" />
+            <element signature="e#6975#6976#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
